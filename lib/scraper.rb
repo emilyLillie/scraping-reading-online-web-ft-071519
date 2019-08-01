@@ -6,6 +6,6 @@ html = open("https://flatironschool.com/")
 
 doc = Nokogiri::HTML(html)
 
-print doc.css(".site-header__hero__headline").text.strip
+doc.css(".site-header__hero__headline").text.strip
 
 
