@@ -8,4 +8,6 @@ require 'open-uri'
 
 # doc.css(".site-header__hero__headline").text.strip
 
+# or instead of text.strip, can iterate over it like anything else like: 
+
 
